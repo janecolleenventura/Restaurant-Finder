@@ -1,0 +1,1355 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 1,
+        "Title": "Larsian BBQ",
+        "Category": 6,
+        "Location": 1,
+        "Cuisine": 7
+      },
+      "geometry": {
+        "coordinates": [
+          123.891689,
+          10.309455
+        ],
+        "type": "Point"
+      },
+      "id": "0b90b8330990a4c3e0116c491956e8bc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 2,
+        "Title": "The Tavern",
+        "Category": 1,
+        "Cuisine": 3,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.9015,
+          10.309123
+        ],
+        "type": "Point"
+      },
+      "id": "0e465e2c49ce78b0f3e3dd0d5c5f884c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 3,
+        "Title": "MO2",
+        "Location": 4,
+        "Cuisine": 9,
+        "Category": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.929466,
+          10.321898
+        ],
+        "type": "Point"
+      },
+      "id": "0f8ba83ab41f30d108fd89befeec7ecd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 4,
+        "Title": "Highlands Coffee",
+        "Location": 2,
+        "Category": 2,
+        "Cuisine": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.959472,
+          10.374655
+        ],
+        "type": "Point"
+      },
+      "id": "161d0b2c90803d2e8f678fd02ee00012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 5,
+        "Title": "Tops Korean BBQ",
+        "Category": 3,
+        "Location": 1,
+        "Cuisine": 12
+      },
+      "geometry": {
+        "coordinates": [
+          123.896316,
+          10.339635
+        ],
+        "type": "Point"
+      },
+      "id": "1dd379bb119e2fffece700e9b4dc67de"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 6,
+        "Title": "10th Dove Street",
+        "Location": 4,
+        "Cuisine": 6,
+        "Category": 2
+      },
+      "geometry": {
+        "coordinates": [
+          123.918477,
+          10.342777
+        ],
+        "type": "Point"
+      },
+      "id": "1dd598e3b9d0faedb99491b2d9e4066d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 7,
+        "Title": "KFC",
+        "Category": 5,
+        "Cuisine": 1,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.898299,
+          10.312713
+        ],
+        "type": "Point"
+      },
+      "id": "21f921b75d46a01513756833eb749987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 8,
+        "Title": "Azure Beach Club",
+        "Location": 3,
+        "Cuisine": 9,
+        "Category": 3
+      },
+      "geometry": {
+        "coordinates": [
+          124.014256,
+          10.296541
+        ],
+        "type": "Point"
+      },
+      "id": "2404c3824b09e6ea1c302a729e0ee6f2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 9,
+        "Title": "Yushoken",
+        "Location": 4,
+        "Category": 3,
+        "Cuisine": 11
+      },
+      "geometry": {
+        "coordinates": [
+          123.918089,
+          10.342604
+        ],
+        "type": "Point"
+      },
+      "id": "263d3d3c72cce5fd15ea47e9e404cee2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 10,
+        "Title": "Jollibee",
+        "Location": 2,
+        "Cuisine": 7,
+        "Category": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.959928,
+          10.376316
+        ],
+        "type": "Point"
+      },
+      "id": "2e7b2eb1af33041d48205418bf8eff2c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 11,
+        "Title": "Tokyo Table",
+        "Location": 4,
+        "Cuisine": 11,
+        "Category": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.932849,
+          10.326699
+        ],
+        "type": "Point"
+      },
+      "id": "2fd5892e37b29c67238c2934061d5ee7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 12,
+        "Title": "Ice Castle",
+        "Location": 3,
+        "Category": 7,
+        "Cuisine": 6
+      },
+      "geometry": {
+        "coordinates": [
+          123.976011,
+          10.326331
+        ],
+        "type": "Point"
+      },
+      "id": "36fce459501b60a640330efdc7ffb503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 13,
+        "Title": "Kaishu Japanese Restaurant",
+        "Location": 3,
+        "Category": 3,
+        "Cuisine": 11
+      },
+      "geometry": {
+        "coordinates": [
+          124.024077,
+          10.312734
+        ],
+        "type": "Point"
+      },
+      "id": "383acad7eafa432e379055678ba7f310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 14,
+        "Title": "Tavolata",
+        "Location": 4,
+        "Cuisine": 10,
+        "Category": 3
+      },
+      "geometry": {
+        "coordinates": [
+          123.919923,
+          10.341287
+        ],
+        "type": "Point"
+      },
+      "id": "3fde2ff08b649456b3dae2acc826f018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 15,
+        "Title": "Jollibee",
+        "Location": 4,
+        "Cuisine": 7,
+        "Category": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.947751,
+          10.340864
+        ],
+        "type": "Point"
+      },
+      "id": "4dfe523fbe1d3d2cbb81b003f26e3011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 16,
+        "Title": "Burrow",
+        "Location": 2,
+        "Cuisine": 1,
+        "Category": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.965062,
+          10.380103
+        ],
+        "type": "Point"
+      },
+      "id": "4fa5d96231bb95b5dd93d5964ec66cd7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 17,
+        "Title": "Jollibee",
+        "Category": 5,
+        "Cuisine": 7,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.898047,
+          10.329925
+        ],
+        "type": "Point"
+      },
+      "id": "5128358b435803942be6b0a4ff813b1b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 18,
+        "Title": "Brown Cup Cafe",
+        "Category": 2,
+        "Cuisine": 4,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.89615,
+          10.313026
+        ],
+        "type": "Point"
+      },
+      "id": "559bc6c6a1e1e65201065977d2293e94"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 19,
+        "Title": "Choobi Choobi",
+        "Location": 4,
+        "Category": 3,
+        "Cuisine": 14
+      },
+      "geometry": {
+        "coordinates": [
+          123.935163,
+          10.325195
+        ],
+        "type": "Point"
+      },
+      "id": "568d9c903d638ed90bbb8cd2bab19e02"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 20,
+        "Title": "Ferrari",
+        "Location": 4,
+        "Category": 1,
+        "Cuisine": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.934081,
+          10.333955
+        ],
+        "type": "Point"
+      },
+      "id": "578bef0d55ed47b317e283dde714bfa6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 21,
+        "Title": "Cafe Berry",
+        "Location": 4,
+        "Category": 2,
+        "Cuisine": 12
+      },
+      "geometry": {
+        "coordinates": [
+          123.919639,
+          10.34175
+        ],
+        "type": "Point"
+      },
+      "id": "60f1394e4a8ec8fcbfe15bcb736a0941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 22,
+        "Title": "Gentleman's Cafe",
+        "Location": 2,
+        "Cuisine": 12,
+        "Category": 2
+      },
+      "geometry": {
+        "coordinates": [
+          123.96457,
+          10.380448
+        ],
+        "type": "Point"
+      },
+      "id": "65e5b0b3351add78e6ea5481c32632ee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 23,
+        "Title": "Samgyupsalamat",
+        "Cuisine": 12,
+        "Location": 1,
+        "Category": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.907302,
+          10.330728
+        ],
+        "type": "Point"
+      },
+      "id": "67ebae79423a3172748d824a87655fbf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 24,
+        "Title": "Matias",
+        "Location": 4,
+        "Cuisine": 7,
+        "Category": 6
+      },
+      "geometry": {
+        "coordinates": [
+          123.923936,
+          10.339415
+        ],
+        "type": "Point"
+      },
+      "id": "6bf0ac3b4b37f4d57d66fa11e62ffe66"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 25,
+        "Title": "Busay View Grill",
+        "Category": 3,
+        "Location": 1,
+        "Cuisine": 7
+      },
+      "geometry": {
+        "coordinates": [
+          123.886951,
+          10.352786
+        ],
+        "type": "Point"
+      },
+      "id": "6da7029c435d0109f8c7d6dc308471a7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 26,
+        "Title": "Chowking",
+        "Location": 5,
+        "Cuisine": 5,
+        "Category": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.823604,
+          10.258788
+        ],
+        "type": "Point"
+      },
+      "id": "71bf6c1f14549b692f25106a1017b26c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 27,
+        "Title": "Alberto's Pizza",
+        "Location": 3,
+        "Category": 7,
+        "Cuisine": 9
+      },
+      "geometry": {
+        "coordinates": [
+          123.964291,
+          10.296215
+        ],
+        "type": "Point"
+      },
+      "id": "740f0506c73497757bfb280fe0a5cc08"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 28,
+        "Title": "Routestop",
+        "Location": 1,
+        "Category": 1,
+        "Cuisine": 7
+      },
+      "geometry": {
+        "coordinates": [
+          123.906515,
+          10.324902
+        ],
+        "type": "Point"
+      },
+      "id": "74b097f8a75b1b1fc63e248b6b19b259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 29,
+        "Title": "Patio Gavino",
+        "Location": 3,
+        "Category": 4,
+        "Cuisine": 9
+      },
+      "geometry": {
+        "coordinates": [
+          123.999346,
+          10.286446
+        ],
+        "type": "Point"
+      },
+      "id": "75d4e3fe71f337820bbb0d9f611dd750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 30,
+        "Title": "Bo's Coffee",
+        "Location": 3,
+        "Category": 2,
+        "Cuisine": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.962501,
+          10.302269
+        ],
+        "type": "Point"
+      },
+      "id": "76142231be895fd7a757fbebd0a8364a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 31,
+        "Title": "Sunburst",
+        "Location": 1,
+        "Category": 3,
+        "Cuisine": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.90602,
+          10.32838
+        ],
+        "type": "Point"
+      },
+      "id": "7b2bec2ecac582d927818476e5629a83"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 32,
+        "Title": "Buffet 101",
+        "Location": 4,
+        "Category": 4,
+        "Cuisine": 9
+      },
+      "geometry": {
+        "coordinates": [
+          123.932538,
+          10.327025
+        ],
+        "type": "Point"
+      },
+      "id": "817cf08ce5a7caecc3bfd914cb2a6f9d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 33,
+        "Title": "Chowking",
+        "Location": 3,
+        "Cuisine": 5,
+        "Category": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.963234,
+          10.316666
+        ],
+        "type": "Point"
+      },
+      "id": "8aaa68392c72beeef18512c3ab42ab18"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 34,
+        "Title": "Chowking",
+        "Location": 2,
+        "Category": 5,
+        "Cuisine": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.964497,
+          10.380094
+        ],
+        "type": "Point"
+      },
+      "id": "8ddce26c74361932380533b2b29e7f7d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 35,
+        "Title": "Mcdonalds",
+        "Category": 5,
+        "Cuisine": 1,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.898207,
+          10.330596
+        ],
+        "type": "Point"
+      },
+      "id": "8e7ccd02b5ab59aed9b4d0cfa4897624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 36,
+        "Title": "Nonki",
+        "Location": 4,
+        "Cuisine": 11,
+        "Category": 3
+      },
+      "geometry": {
+        "coordinates": [
+          123.932339,
+          10.336439
+        ],
+        "type": "Point"
+      },
+      "id": "95e0b9df195b68a5e07d590dc3183143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 37,
+        "Title": "Nonki",
+        "Location": 3,
+        "Category": 3,
+        "Cuisine": 11
+      },
+      "geometry": {
+        "coordinates": [
+          123.995125,
+          10.282538
+        ],
+        "type": "Point"
+      },
+      "id": "98b4d9a08d886fac957a87d0df5f2027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 38,
+        "Title": "Coffee Bean & Tea Leaf",
+        "Location": 3,
+        "Category": 2,
+        "Cuisine": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.976173,
+          10.312408
+        ],
+        "type": "Point"
+      },
+      "id": "9db1c98b64abe58db1dfbc773e53b898"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 39,
+        "Title": "Andoks",
+        "Location": 4,
+        "Category": 5,
+        "Cuisine": 7
+      },
+      "geometry": {
+        "coordinates": [
+          123.935453,
+          10.332478
+        ],
+        "type": "Point"
+      },
+      "id": "9e4d51bbb926ccadaa3864973ca91ad6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 40,
+        "Title": "Jollibee",
+        "Location": 5,
+        "Category": 5,
+        "Cuisine": 7
+      },
+      "geometry": {
+        "coordinates": [
+          123.823247,
+          10.258754
+        ],
+        "type": "Point"
+      },
+      "id": "a2c104178875039ca5e7befa856dcd2e"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 41,
+        "Title": "Circa 1900",
+        "Location": 1,
+        "Cuisine": 10,
+        "Category": 3
+      },
+      "geometry": {
+        "coordinates": [
+          123.90017,
+          10.326868
+        ],
+        "type": "Point"
+      },
+      "id": "a4610e94992cf2f1864d74c12965bc43"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 42,
+        "Title": "Bonchon",
+        "Location": 3,
+        "Cuisine": 12,
+        "Category": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.977028,
+          10.31334
+        ],
+        "type": "Point"
+      },
+      "id": "a83856b9aab26f5221b34836198b76f7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 43,
+        "Title": "Burger King",
+        "Location": 4,
+        "Category": 5,
+        "Cuisine": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.933871,
+          10.322578
+        ],
+        "type": "Point"
+      },
+      "id": "acf201eff8de70352af6c627741fa17f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 44,
+        "Title": "Route 66 Diner",
+        "Location": 3,
+        "Category": 7,
+        "Cuisine": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.983719,
+          10.261299
+        ],
+        "type": "Point"
+      },
+      "id": "ad6681667799d71cab7ea7def28cacec"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 45,
+        "Title": "Tom N Toms Coffee",
+        "Location": 3,
+        "Category": 2,
+        "Cuisine": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.963938,
+          10.298021
+        ],
+        "type": "Point"
+      },
+      "id": "adb23ab11a740f4db23e65ea41bf3c96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 46,
+        "Title": "KFC",
+        "Location": 2,
+        "Cuisine": 1,
+        "Category": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.965031,
+          10.379814
+        ],
+        "type": "Point"
+      },
+      "id": "adcced9e6778f834d5a32fff9aaf8f3c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 47,
+        "Title": "Fiji Restaurant",
+        "Location": 3,
+        "Category": 3,
+        "Cuisine": 9
+      },
+      "geometry": {
+        "coordinates": [
+          123.984047,
+          10.261701
+        ],
+        "type": "Point"
+      },
+      "id": "af275849b95eb20b437f10bccbc0d8c2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 48,
+        "Title": "Cafe Georg",
+        "Location": 1,
+        "Category": 3,
+        "Cuisine": 9
+      },
+      "geometry": {
+        "coordinates": [
+          123.909912,
+          10.329658
+        ],
+        "type": "Point"
+      },
+      "id": "b1411dddf876c9e89233aa5b55cc1d30"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 49,
+        "Title": "Tides",
+        "Location": 3,
+        "Cuisine": 9,
+        "Category": 4
+      },
+      "geometry": {
+        "coordinates": [
+          124.020542,
+          10.307315
+        ],
+        "type": "Point"
+      },
+      "id": "b4c0dcd5884fb9014c5982c0cc0aae09"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 50,
+        "Title": "Dolce Cafe",
+        "Category": 2,
+        "Cuisine": 6,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.896948,
+          10.33638
+        ],
+        "type": "Point"
+      },
+      "id": "b7e1ad5d46536e919819e9d9ed18ab00"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 51,
+        "Title": "Burrow",
+        "Category": 4,
+        "Cuisine": 1,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.899583,
+          10.331127
+        ],
+        "type": "Point"
+      },
+      "id": "ba2b8cc15bde1fd7c2f09587fe8c3401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 52,
+        "Title": "Kogi Q BBQ",
+        "Category": 4,
+        "Cuisine": 12,
+        "Location": 3
+      },
+      "geometry": {
+        "coordinates": [
+          123.961422,
+          10.30246
+        ],
+        "type": "Point"
+      },
+      "id": "c1cb8dc3708651b734af3734086e95ed"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 53,
+        "Title": "Harbor City",
+        "Location": 4,
+        "Cuisine": 5,
+        "Category": 3
+      },
+      "geometry": {
+        "coordinates": [
+          123.93327,
+          10.322028
+        ],
+        "type": "Point"
+      },
+      "id": "c25a6e8887bce088d917f0446120afbd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 54,
+        "Title": "Mr. Crab",
+        "Location": 2,
+        "Cuisine": 14,
+        "Category": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.967326,
+          10.380653
+        ],
+        "type": "Point"
+      },
+      "id": "c2e22a44db4cd5f9e903c289271611b0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 55,
+        "Title": "Anzani",
+        "Category": 3,
+        "Cuisine": 10,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.896832,
+          10.335533
+        ],
+        "type": "Point"
+      },
+      "id": "c44b7d0c497ac668203ef0363742083a"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 56,
+        "Title": "Fabulous Fifties Cafe",
+        "Location": 3,
+        "Cuisine": 1,
+        "Category": 7
+      },
+      "geometry": {
+        "coordinates": [
+          123.959526,
+          10.305546
+        ],
+        "type": "Point"
+      },
+      "id": "c474b24e2b4079961983d1a8706e17b7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 57,
+        "Title": "Jollibee",
+        "Location": 3,
+        "Cuisine": 7,
+        "Category": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.962724,
+          10.301469
+        ],
+        "type": "Point"
+      },
+      "id": "c4e50805da5aff071312f1cd263397cc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 58,
+        "Title": "Tonyo's",
+        "Location": 5,
+        "Cuisine": 7,
+        "Category": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.817991,
+          10.258076
+        ],
+        "type": "Point"
+      },
+      "id": "c66ce56f1649e86183b2fc02efdd2b96"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 59,
+        "Title": "Mang Inasal",
+        "Location": 4,
+        "Cuisine": 7,
+        "Category": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.934301,
+          10.325008
+        ],
+        "type": "Point"
+      },
+      "id": "c7138a39b82bb332e0977e6caf6c37a3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 60,
+        "Title": "Coffee Dream",
+        "Location": 4,
+        "Cuisine": 12,
+        "Category": 2
+      },
+      "geometry": {
+        "coordinates": [
+          123.930671,
+          10.337253
+        ],
+        "type": "Point"
+      },
+      "id": "c98a3da39a240d4da27c8280d617bbf9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 61,
+        "Title": "Daega",
+        "Location": 4,
+        "Cuisine": 12,
+        "Category": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.932899,
+          10.326539
+        ],
+        "type": "Point"
+      },
+      "id": "cac4a555c065620c0276fab27412884f"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 62,
+        "Title": "Samgyupsalamat",
+        "Location": 4,
+        "Cuisine": 12,
+        "Category": 4
+      },
+      "geometry": {
+        "coordinates": [
+          123.918739,
+          10.342686
+        ],
+        "type": "Point"
+      },
+      "id": "ce797eb260b757707516243a9ff36faa"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 63,
+        "Title": "Vikings",
+        "Location": 1,
+        "Category": 4,
+        "Cuisine": 9
+      },
+      "geometry": {
+        "coordinates": [
+          123.918871,
+          10.312048
+        ],
+        "type": "Point"
+      },
+      "id": "d1975bde6923e14e9110fe7e60a3c312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 64,
+        "Title": "Starbucks",
+        "Location": 4,
+        "Cuisine": 4,
+        "Category": 2
+      },
+      "geometry": {
+        "coordinates": [
+          123.918019,
+          10.342351
+        ],
+        "type": "Point"
+      },
+      "id": "d45d85f7f22e58b41fc779b95961a193"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 65,
+        "Title": "House of Lechon",
+        "Category": 3,
+        "Cuisine": 7,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.901836,
+          10.317499
+        ],
+        "type": "Point"
+      },
+      "id": "dcbdc2ba11b6e02c1efb58e198242b50"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 66,
+        "Title": "Dimsum Break",
+        "Location": 3,
+        "Category": 5,
+        "Cuisine": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.956077,
+          10.31319
+        ],
+        "type": "Point"
+      },
+      "id": "dfab6b48f932207d333ea255abef3fb4"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 67,
+        "Title": "House of Lechon",
+        "Location": 5,
+        "Category": 3,
+        "Cuisine": 7
+      },
+      "geometry": {
+        "coordinates": [
+          123.819323,
+          10.258193
+        ],
+        "type": "Point"
+      },
+      "id": "e499cf5f9e2d823879381868fbfc3d98"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 68,
+        "Title": "Pink Heaven",
+        "Location": 5,
+        "Cuisine": 6,
+        "Category": 2
+      },
+      "geometry": {
+        "coordinates": [
+          123.817789,
+          10.258435
+        ],
+        "type": "Point"
+      },
+      "id": "e49e63a40c8f87394f621cbd08f8f230"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 69,
+        "Title": "Maribago Grill",
+        "Location": 3,
+        "Cuisine": 14,
+        "Category": 3
+      },
+      "geometry": {
+        "coordinates": [
+          123.998898,
+          10.288771
+        ],
+        "type": "Point"
+      },
+      "id": "e4b88e1be62034c3e504c73b8baa127b"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 70,
+        "Title": "Leona's Cakes and Pastries",
+        "Location": 4,
+        "Cuisine": 6,
+        "Category": 2
+      },
+      "geometry": {
+        "coordinates": [
+          123.934041,
+          10.335733
+        ],
+        "type": "Point"
+      },
+      "id": "e5e4e4466221820240f19591f28e6241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 71,
+        "Title": "Tazza Mia Cafe",
+        "Category": 2,
+        "Cuisine": 6,
+        "Location": 1
+      },
+      "geometry": {
+        "coordinates": [
+          123.899955,
+          10.331482
+        ],
+        "type": "Point"
+      },
+      "id": "e64ce65d87e67d75d232dfc67ae1aad1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 72,
+        "Title": "Mr. A Restaurant",
+        "Category": 3,
+        "Location": 1,
+        "Cuisine": 9
+      },
+      "geometry": {
+        "coordinates": [
+          123.889784,
+          10.351984
+        ],
+        "type": "Point"
+      },
+      "id": "eb082fd27b5138c5e3236553cba60942"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 73,
+        "Title": "Mcdonalds",
+        "Location": 2,
+        "Cuisine": 1,
+        "Category": 5
+      },
+      "geometry": {
+        "coordinates": [
+          123.965196,
+          10.379299
+        ],
+        "type": "Point"
+      },
+      "id": "eb7e6242500b10a158beba450b152c06"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 74,
+        "Title": "AA BBQ",
+        "Location": 3,
+        "Cuisine": 7,
+        "Category": 3
+      },
+      "geometry": {
+        "coordinates": [
+          123.960196,
+          10.304344
+        ],
+        "type": "Point"
+      },
+      "id": "ee720418ad211978fc6a1608f1eff91d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ID": 75,
+        "Title": "Tandoori",
+        "Location": 4,
+        "Cuisine": 8,
+        "Category": 3
+      },
+      "geometry": {
+        "coordinates": [
+          123.933864,
+          10.325293
+        ],
+        "type": "Point"
+      },
+      "id": "fd6669a55d32b649be4f765b33643777"
+    }
+  ],
+  "type": "FeatureCollection"
+}
