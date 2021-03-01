@@ -1,7 +1,6 @@
 # restaurant-locator
 
-> A Vue.js project
-> Uses mapbox, material-vue, mapbox-gl-vue
+> A Vue.js project that uses mapbox, material-vue and mapbox-gl-vue
 
 ## Build Setup
 
