@@ -58,7 +58,7 @@ export default {
       map.addControl(new MapboxGeocoder({
         accessToken: 'pk.eyJ1IjoiamFuZWNvbGxlZW52ZW50dXJhIiwiYSI6ImNrbG50NHBhNTBtY24ydWw2d3FrOHEzNzIifQ.pGFk4OFUehABAB9dxmTJ6Q',
         mapboxgl: map,
-        marker: true,
+        marker: false,
         placeholder: 'Search for restaurants',
         bbox: [123.81571041619664, 10.322879581550891, 124.04513379288458, 10.477085501223165],
         proximity: {
