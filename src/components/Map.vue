@@ -4,54 +4,50 @@
         access-token='pk.eyJ1IjoiamFuZWNvbGxlZW52ZW50dXJhIiwiYSI6ImNrbG50NHBhNTBtY24ydWw2d3FrOHEzNzIifQ.pGFk4OFUehABAB9dxmTJ6Q'
         :map-options="{
             container: 'map',
-            style: 'mapbox://styles/mapbox/streets-v11',
+            style: 'mapbox://styles/janecolleenventura/cklntbbu20i0a17pj9o4jvfje',
             center: [123.8854, 10.3157],
-            zoom: 11.3
+            zoom: 12
         }"
         @map-load="loaded"
-        @map-sourcedata="loadList"
         />
     </div>
 </template>
 
 <script>
 import Mapbox from 'mapbox-gl-vue'
+import mapboxgl from 'mapbox-gl/dist/mapbox-gl'
 import MapboxGeocoder from '@mapbox/mapbox-gl-geocoder'
 
 export default {
-  components: { MapboxGeocoder, Mapbox },
+  components: { MapboxGeocoder, Mapbox, mapboxgl },
   props: {
     geo: Array
   },
   data () {
     return {
       coordinates: this.geo,
-      mapBx: {}
+      mapBx: {},
+      locationList: [],
+      locator: {}
     }
   },
   methods: {
     loaded (map) {
       this.mapBx = map
+      let global = this
       map.addSource('data', {
         type: 'geojson',
         data: 'static/features.geojson'
       })
 
       map.addLayer({
-        id: 'resto',
+        id: 'points',
         type: 'circle',
         source: 'data',
         paint: {
-          'circle-color': 'orange',
-          'circle-radius': [
-            'step',
-            ['get', 'point_count'],
-            20,
-            5,
-            30,
-            8,
-            40
-          ]
+          'circle-color': 'white',
+          'circle-radius': 25,
+          'circle-opacity': 0
         }
       })
       /* eslint-disable no-new */
@@ -66,33 +62,42 @@ export default {
           latitude: 10.3157
         }
       }))
+
+      let xmlhttp = new XMLHttpRequest()
+      let url = 'static/features.geojson'
+
+      xmlhttp.onreadystatechange = function () {
+        if (this.readyState === 4 && this.status === 200) {
+          let myArr = JSON.parse(this.responseText)
+          global.loadList(myArr.features, global.mapBx)
+        }
+      }
+      xmlhttp.open('GET', url, true)
+      xmlhttp.send()
     },
 
-    loadList (map) {
+    loadList (list, map) {
       let obj = {}
       let prop = {}
-      let list = []
-      let found = false
+      let global = this
       let geometry = {}
-      if (map.getSource('data') && map.isSourceLoaded('data')) {
-        let features = map.querySourceFeatures('data')
-        features.forEach(function (store) {
+
+      if (global.locationList.length === 0) {
+        list.forEach(function (store) {
           prop = store.properties
           geometry = store.geometry
+          new mapboxgl.Marker().setLngLat(geometry.coordinates).addTo(map)
           obj = {}
-          found = list.some(el => el.id === prop.ID)
-          if (list.length === 0 || !found) {
-            obj.id = prop.ID
-            obj.title = prop.Title
-            obj.location = prop.Location
-            obj.cuisine = prop.Cuisine
-            obj.category = prop.Category
-            obj.geometry = geometry.coordinates
-            list.push(obj)
-          }
+          obj.id = prop.ID
+          obj.title = prop.Title
+          obj.location = prop.Location
+          obj.cuisine = prop.Cuisine
+          obj.category = prop.Category
+          obj.geometry = geometry.coordinates
+          global.locationList.push(obj)
         })
-        if (list.length > 0) {
-          this.$emit('loadSidebar', list)
+        if (global.locationList.length > 0) {
+          this.$emit('loadSidebar', global.locationList)
         }
       }
     },

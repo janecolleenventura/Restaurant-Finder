@@ -70,12 +70,19 @@
 
 .mapboxgl-ctrl-top-right > .mapboxgl-ctrl-group {
   right: 0;
+  /* position: relative; */
+  display: inline-block;
+  vertical-align: top;
 }
 
 .mapboxgl-ctrl-top-right > .mapboxgl-ctrl-geocoder {
   top: 0;
   position: absolute;
   padding-left: 20px;
+  display: inline-block;
+  vertical-align: top;
+  min-width: 400px;
+  max-width: 400px;
 }
 
 .mapboxgl-ctrl-top-right > .mapboxgl-ctrl-geocoder > svg {

@@ -11,6 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "@mapbox/mapbox-gl-directions": "^4.1.0",
     "@mapbox/mapbox-gl-geocoder": "^4.7.0",
     "d3": "^6.5.0",
     "d3-fetch": "^2.0.0",
